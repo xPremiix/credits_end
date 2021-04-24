@@ -1,11 +1,12 @@
 # Credits End
 Stream Elements overlay widget displaying information about subs, followers, cheers and tips.
 
+[Request a feature](https://github.com/xPremiix/credits_end/issues/new)
+
 <img src="./img/preview.JPG" alt="alt text" width="390" height="265"/>
 <img src="./img/preview2.JPG" alt="alt text" width="390" height="265"/>
 
-## Feature request
-[New request](https://github.com/xPremiix/credits_end/issues/new)
+## Feature requests
 - Custom strings for displaying usernames
 - username alignment
 
