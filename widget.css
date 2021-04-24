@@ -12,10 +12,10 @@
 
 @keyframes credits {
     0% {
-        top: 100%;
+        top: 110%;
     }
     100% {
-        top: -100%;
+        top: -210%;
     }
 }
 
@@ -75,12 +75,4 @@ h3 {
 
 .col2 .user {
     flex-basis: 50%;
-}
-
-.col3 .user {
-    flex-basis: 33.3%;
-}
-
-.col4 .user {
-    flex-basis: 25%;
 }

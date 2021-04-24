@@ -17,11 +17,11 @@
     "subtitleText": {
         "type": "textfield",
         "label": "Subtitle text",
-        "value": "Thank you everybody for your impact!"
+        "value": "Thanks for watching"
     },
     "subtitleFontSize": {
         "type": "number",
-        "label": "Subtitle and section headers font size",
+        "label": "Subtitle font size",
         "value": 40
     },
     "subtitleFontColor": {
@@ -34,19 +34,19 @@
         "label": "Font name (see google fonts)",
         "value": "Roboto"
     },
+    "fontSize": {
+        "type": "number",
+        "label": "Username font size",
+        "value": 24
+    },
     "fontColor": {
         "type": "colorpicker",
         "label": "Color of the usernames",
         "value": "rgba(255,255,255,1)"
     },
-    "fontSize": {
-        "type": "number",
-        "label": "Size of usernames",
-        "value": 24
-    },
     "labelFontSize": {
         "type": "number",
-        "label": "Size of labels",
+        "label": "Label font size",
         "value": 30
     },
     "labelFontColor": {
@@ -96,12 +96,12 @@
     },
     "numColumns": {
         "type": "number",
-        "label": "Number of columns (1, 2, 3, 4)",
+        "label": "Number of columns (1, 2)",
         "value": 2
     },
     "scrollSpeed": {
         "type": "number",
         "label": "Scrolling speed",
-        "value": 50
+        "value": 25
     }
 }

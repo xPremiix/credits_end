@@ -1,12 +1,3 @@
-/*function isUserMentioned(haystack, username, type) {
-    for (let i = 0; i < haystack.length; i++) {
-        if (haystack[i].name.toLocaleLowerCase == username.toLocaleLowerCase && haystack[i].type == type) {
-            return true;
-        }
-        return false;
-    }
-}*/
-
 window.addEventListener('onWidgetLoad', function (obj) {
     const recents = obj.detail.recents;
     let mentionedEvents = [];
@@ -23,10 +14,9 @@ window.addEventListener('onWidgetLoad', function (obj) {
 
     for (eventIndex in recents) {
         const event = recents[eventIndex];
-        if (!fieldData[`enable${event.type}`]) continue;
+        if (!fieldData[`display${event.type}`]) continue;
 
         if (event.type === "subscriber") {
-            //if (!isUserMentioned(mentionedEvents, event.name, event.type)) {
             if (!isUserMentioned(event.name, event.type)) {
                 mentionedEvents.push(event);
                 if (event.amount > 1) {
@@ -36,19 +26,16 @@ window.addEventListener('onWidgetLoad', function (obj) {
                 }
             }
         } else if (event.type === "tip") {
-            //if (!isUserMentioned(mentionedEvents, event.name, event.type)) {
             if (!isUserMentioned(event.name, event.type)) {
                 mentionedEvents.push(event);
                 addElement(event.type, event.name);
             }
         } else if (event.type === "follower") {
-            //if (!isUserMentioned(mentionedEvents, event.name, event.type)) {
             if (!isUserMentioned(event.name, event.type)) {
                 mentionedEvents.push(event);
                 addElement(event.type, event.name);
             }
         } else if (event.type === "cheer") {
-            //if (!isUserMentioned(mentionedEvents, event.name, event.type)) {
             if (!isUserMentioned(event.name, event.type)) {
                 mentionedEvents.push(event);
                 addElement(event.type, event.name);
