@@ -1,0 +1,107 @@
+{
+    "titleText": {
+        "type": "text",
+        "label": "Title text",
+        "value": "The stream has ended"
+    },
+    "titleFontSize": {
+        "type": "number",
+        "label": "Title font size",
+        "value": 60
+    },
+    "titleFontColor": {
+        "type": "colorpicker",
+        "label": "Color of the title",
+        "value": "rgba(255,255,255,1)"
+    },
+    "subtitleText": {
+        "type": "textfield",
+        "label": "Subtitle text",
+        "value": "Thank you everybody for your impact!"
+    },
+    "subtitleFontSize": {
+        "type": "number",
+        "label": "Subtitle and section headers font size",
+        "value": 40
+    },
+    "subtitleFontColor": {
+        "type": "colorpicker",
+        "label": "Color of the subtitle",
+        "value": "rgba(255,255,255,1)"
+    },
+    "fontFamily": {
+        "type": "googleFont",
+        "label": "Font name (see google fonts)",
+        "value": "Roboto"
+    },
+    "fontColor": {
+        "type": "colorpicker",
+        "label": "Color of the usernames",
+        "value": "rgba(255,255,255,1)"
+    },
+    "fontSize": {
+        "type": "number",
+        "label": "Size of usernames",
+        "value": 24
+    },
+    "labelFontSize": {
+        "type": "number",
+        "label": "Size of labels",
+        "value": 30
+    },
+    "labelFontColor": {
+        "type": "colorpicker",
+        "label": "Color of the labels",
+        "value": "rgba(255,255,255,1)"
+    },
+    "enablesubscriber": {
+        "type": "checkbox",
+        "label": "Display subscribers",
+        "value": true
+    },
+    "subLabel": {
+        "type": "textfield",
+        "label": "Subscriber label",
+        "value": "Subscribers"
+    },
+    "enabletip": {
+        "type": "checkbox",
+        "label": "Display tips",
+        "value": true
+    },
+    "tipLabel": {
+        "type": "textfield",
+        "label": "Tip label",
+        "value": "Donators"
+    },
+    "enablecheer": {
+        "type": "checkbox",
+        "label": "Display Cheers",
+        "value": true
+    },
+    "cheerLabel": {
+        "type": "textfield",
+        "label": "Cheer label",
+        "value": "Cheerers"
+    },
+    "enablefollower": {
+        "type": "checkbox",
+        "label": "Display Followers",
+        "value": true
+    },
+    "followLabel": {
+        "type": "textfield",
+        "label": "Followers label",
+        "value": "Followers"
+    },
+    "numColumns": {
+        "type": "number",
+        "label": "Number of columns (1, 2, 3, 4)",
+        "value": 2
+    },
+    "scrollSpeed": {
+        "type": "number",
+        "label": "Scrolling speed",
+        "value": 50
+    }
+}

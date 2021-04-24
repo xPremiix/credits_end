@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: '{{fontFamily}}', sans-serif;
+    color: {{fontColor}};
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@keyframes credits {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -100%;
+    }
+}
+
+.credits-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    animation: {{scrollSpeed}}s credits linear infinite;
+}
+
+/* h1 tag is used for title text*/
+h1 {
+    font-size: {{titleFontSize}}px;
+    color: {{titleFontColor}};
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+/* h2 tag is used for subtitle text*/
+h2 {
+    font-size: {{subtitleFontSize}}px;
+    color: {{subtitleFontColor}};
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+/* h3 tag is used for labels text*/
+h3 {
+    font-size: {{labelFontSize}}px;
+    color: {{labelFontColor}};
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.credits-subsection {
+    display: none;
+}
+
+.user-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    flex: 1 1 100%;
+    padding: 10px 0;
+    font-size: {{fontSize}}px;
+}
+.col1 .user {
+    flex-basis: 100%;
+}
+
+.col2 .user {
+    flex-basis: 50%;
+}
+
+.col3 .user {
+    flex-basis: 33.3%;
+}
+
+.col4 .user {
+    flex-basis: 25%;
+}
