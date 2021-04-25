@@ -54,7 +54,7 @@
         "label": "Color of the labels",
         "value": "rgba(255,255,255,1)"
     },
-    "enablesubscriber": {
+    "displaysubscriber": {
         "type": "checkbox",
         "label": "Display subscribers",
         "value": true
@@ -64,7 +64,17 @@
         "label": "Subscriber label",
         "value": "Subscribers"
     },
-    "enabletip": {
+    "displayfollower": {
+        "type": "checkbox",
+        "label": "Display Followers",
+        "value": true
+    },
+    "followLabel": {
+        "type": "textfield",
+        "label": "Followers label",
+        "value": "Followers"
+    },
+    "displaytip": {
         "type": "checkbox",
         "label": "Display tips",
         "value": true
@@ -74,7 +84,7 @@
         "label": "Tip label",
         "value": "Donators"
     },
-    "enablecheer": {
+    "displaycheer": {
         "type": "checkbox",
         "label": "Display Cheers",
         "value": true
@@ -83,16 +93,6 @@
         "type": "textfield",
         "label": "Cheer label",
         "value": "Cheerers"
-    },
-    "enablefollower": {
-        "type": "checkbox",
-        "label": "Display Followers",
-        "value": true
-    },
-    "followLabel": {
-        "type": "textfield",
-        "label": "Followers label",
-        "value": "Followers"
     },
     "numColumns": {
         "type": "number",
