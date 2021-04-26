@@ -10,6 +10,10 @@
     overflow: hidden;
 }
 
+body {
+    background-color: {{backgroundColor}};
+}
+
 @keyframes credits {
     0% {
         top: 110%;

@@ -2,19 +2,20 @@ window.addEventListener('onWidgetLoad', function (obj) {
     const recents = obj.detail.recents;
     let mentionedEvents = [];
     let fieldData = obj.detail.fieldData;
+    let locale = fieldData["locale"];
 
     function isUserMentioned(username, type) {
         for (let i = 0; i < mentionedEvents.length; i++) {
-            if ((mentionedEvents[i].name.toLocaleLowerCase === username.toLocaleLowerCase) && (mentionedEvents.type === type)) {
+            if ((mentionedEvents[i].name.toLowerCase() === username.toLowerCase()) && (mentionedEvents[i].type === type)) {
                 return true;
             }
-            return false;
         }
+        return false;
     }
 
     for (eventIndex in recents) {
         const event = recents[eventIndex];
-        if (!fieldData[`display${event.type}`]) continue;
+        if (!fieldData[`enable${event.type}`]) continue;
 
         if (event.type === "subscriber") {
             if (!isUserMentioned(event.name, event.type)) {

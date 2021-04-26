@@ -36,3 +36,8 @@ Stream Elements overlay widget displaying information about subs, followers, che
         <img src="./img/settings1.png" alt="alt text" width="700"/>
     </li>
 </ol>
+
+## Change log
+### 2021-04-26
+ - Fixed bug with duplicate names in same category.
+ - Added background color as a setting. Opacity is chosen in color picker

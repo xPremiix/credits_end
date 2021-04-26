@@ -99,6 +99,11 @@
         "label": "Number of columns (1, 2)",
         "value": 2
     },
+    "backgroundColor": {
+        "type": "colorpicker",
+        "label": "Color of the background. (choose opacity for level of transpacy)",
+        "value": "rgba(255,255,255,1)"
+    },
     "scrollSpeed": {
         "type": "number",
         "label": "Scrolling speed",
