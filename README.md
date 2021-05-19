@@ -12,7 +12,6 @@ Stream Elements overlay widget displaying information about subs, followers, che
 
 ## Bugs
 - Delayed update of checkboxes (display of subs/followers/tips/cheers)
-- Fix users being shown multiple times per type. e.g. being shown twice for subscribing for two months
 
 ## Installation
 <ol>
